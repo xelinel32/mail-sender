@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Send mail</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Forward connect</h1>
+        <form id="mailForm" action="">
+            <input type="email" name="email" id="email" placeholder="Email" class="form-control" required><br>
+            <input type="text" name="name" id="name" placeholder="Write the your name" class="form-control" required><br>
+            <input type="phone" name="phone" id="phone" placeholder="Write the your phone" class="form-control" required><br>
+            <textarea name="emailtext" id="emailtext" class="form-control" required></textarea><br>
+            <button type="button" id="sendMail" class="btn btn-success">Send Mail</button>
+        </form><br>
+        <div style="color:red;resize: none;" id="errorMessage"></div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/form.js"></script>
+</body>
+
+</html>
